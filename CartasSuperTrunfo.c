@@ -7,19 +7,11 @@ Siga os comentários para implementar cada parte do desafio.
 */
 
 int main() {
-    // Definindo variáveis da carta 1
-    char cidade[20];
-    int populacao;
-    float area;
-    float pib;
-    int ponto_turistico;
-
-    // Definindo variáveis da carta 2
-    char cidade2[20];
-    int populacao2;
-    float area2;
-    float pib2;
-    int ponto_turistico2;
+    // Definindo variáveis da carta
+    char cidade[20], cidade2[20];
+    int populacao, populacao2;
+    float area, area2, pib, pib2;
+    int ponto_turistico, ponto_turistico2;
     
     // Cadastro da primeira carta
     printf("\n------------------------ Cadastro da Carta 1:------------------------\n");
